@@ -14,8 +14,8 @@ On Android, add the following to the end of your `android/app/build.gradle`
 
 ```groovy
 project.afterEvaluate {
-    apply from: '../../node_modules/react-native-zss-rich-text-editor/htmlCopy.gradle';
-    copyEditorHtmlToAppAssets(file('../../node_modules/react-native-zss-rich-text-editor'))
+    apply from: '../../node_modules/react-native-zss-rich-text-editor-updated/htmlCopy.gradle';
+    copyEditorHtmlToAppAssets(file('../../node_modules/react-native-zss-rich-text-editor-updated'))
 }
 ```
 
