@@ -255,5 +255,8 @@ This is a set of consts of all supported actions. These will be passed in arrays
 
 ## Changelog
 
+### v1.1.2
+Updated readme
+
 ### v1.1.1
 Updated src for webview to use uri instead require on IOS platform
